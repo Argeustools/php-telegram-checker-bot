@@ -85,7 +85,7 @@ $islive = 'ON';
            ['text' => 'Free', 'callback_data' => 'free'], 
            ['text' => 'Others', 'callback_data' => 'others'], 
            ['text' => 'Buy', 'callback_data' => 'buy'], 
-           // ['text' => 'Buy Now', 'url' => 'https://t.me/r0ld3x'], 
+           // ['text' => 'Buy Now', 'url' => 'https://t.me/arg452'], 
            ['text' => 'Finalize', 'callback_data' => 'end']
         ]
         ]];
@@ -132,14 +132,14 @@ $freecommands = urlencode("<b>->> <code>.credits</code> Know Your Available Cred
 
 Note-⟩ If you get any type of bugs in this bot please inform our team at @r0ld3xrobot</b>");
 $free = json_encode($keyboard);
-        file_get_contents("https://api.telegram.org/bot<Bottoken>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
+        file_get_contents("https://api.telegram.org/bot<5661598033:AAFMHtztF_ZzX5z8bGGF-ROzHo2XVCTt-5o>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
 
 }
 if ($cdata2 == "buy"){
 
     $keyboard = [
     'inline_keyboard' => [
-         [['text' => 'Buy Now', 'url' => 'https://t.me/r0ld3x'], 
+         [['text' => 'Buy Now', 'url' => 'https://t.me/arg452'], 
          ['text' => 'Premium', 'callback_data' => 'paid'],
          ['text' => 'Finalize', 'callback_data' => 'end']]
         ]];
@@ -150,12 +150,12 @@ $freecommands = urlencode("<b>Use <code>.credits</code> Know Your Available Cred
 -> 1000 CREDITS + PREMIUM ACCESS - 25$
 Note-⟩ We Only Accept [UPI][GIFT CARDS][CRYTPO]</b>");
 $free = json_encode($keyboard);
-        file_get_contents("https://api.telegram.org/bot<Bottoken>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
+        file_get_contents("https://api.telegram.org/bot<5661598033:AAFMHtztF_ZzX5z8bGGF-ROzHo2XVCTt-5o>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
 
 }
 elseif ($cdata2 == "end"){ 
 $finalize = urlencode("<b>Inline Mode Closed  <a href='tg://user?id=$gId'>$firstname</a></b>"); 
-file_get_contents("https://api.telegram.org/bot<Bottoken>/editMessageText?chat_id=$cchatid2&text=$finalize&message_id=$cmessage_id2&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot<5661598033:AAFMHtztF_ZzX5z8bGGF-ROzHo2XVCTt-5o>/editMessageText?chat_id=$cchatid2&text=$finalize&message_id=$cmessage_id2&parse_mode=HTML");
 }
 if($sender_chat == 'channel'){
 exit();
@@ -191,7 +191,7 @@ bot('sendmessage', [
 HEY <a href='tg://user?id=$gId'>$newfirstname</a>
 WELCOME TO $chatname and chat id of this group is  <code>$chatId</code> and your id is <code>$gId</code>
 
-THIS BOT IS MADE WITH ♥️ BY  <code>@r0ld3x</code> </b>",
+THIS BOT IS MADE WITH ♥️ BY  <code>@arg452x</code> </b>",
  'parse_mode'=>'HTML',
  'reply_markup' => $free,
  ]);
@@ -202,12 +202,12 @@ $premium_id = (array("1792903396","1317173146"));
 $premiumgp = (array("-1001320804136","-1001552296979","-1001300027599","-1001298504199","-1001434792768"));
         $keyboard = json_encode([
 'inline_keyboard' => [
-[['text' => "OWNER", 'url' => "https://t.me/r0ld3x"],]
+[['text' => "OWNER", 'url' => "https://t.me/arg452"],]
 ]]);
                 $keyboard1 = json_encode([
 'inline_keyboard' => [
-[['text' => "CHANNEL", 'url' => "https://t.me/RoldexVerse"],
-['text' => "GROUP", 'url' => "https://t.me/RoldexVerseChats"],]
+[['text' => "CHANNEL", 'url' => "https://t.me/none"],
+['text' => "GROUP", 'url' => "https://t.me/none"],]
 ]]);
 
 // if(!in_array($chatId, $premiumgp)){
@@ -226,7 +226,7 @@ $premiumgp = (array("-1001320804136","-1001552296979","-1001300027599","-1001298
 // 
 // You Need To Join My Update Channel To Get Regular Updates
 // 
-// Made With ♥️ By @r0ld3x
+// Made With ♥️ By @arg452
 // USE /start AFTER JOIN",
  // 'parse_mode'=>'HTML',
  // 'reply_markup' =>  $keyboard1,
@@ -239,7 +239,7 @@ $premiumgp = (array("-1001320804136","-1001552296979","-1001300027599","-1001298
 // 
 // You Need To Join My Update Channel To Get Regular Updates
 // 
- // Made With ♥️ By @r0ld3x And @RoldexVerse
+ // Made With ♥️ By @r0ld3x And @arg452
 // 
 // USE /start AFTER JOIN",
  // 'parse_mode'=>'HTML',
